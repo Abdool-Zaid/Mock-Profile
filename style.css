@@ -1,0 +1,86 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.lnd {
+  height: 100vh;
+}
+.tpdout {
+  overflow: hidden;
+  border-right: 0.15em solid rgb(0, 0, 0);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 5s steps(30, end), blink-caret 0.75s step-end infinite;
+  animation-iteration-count: infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+.about {
+  height: 100vh;
+}
+.srv {
+  height: 120vh;
+}
+.stat {
+  height: 50vh;
+}
+.portfolio {
+  height: 120vh;
+}
+.testimonial {
+  height: 50vh;
+  width: 200vw;
+  display: flex;
+  justify-content: center;
+}
+.testimonial > div {
+  width: 100vw;
+}
+.blog {
+  height: 120vh;
+}
+/* contact */
+.contact {
+  display: flex;
+  height: 98vh;
+  background-color: rgba(155, 86, 219, 0.675);
+}
+/* contact form */
+#form {
+  height: 90%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: rgba(0, 255, 255, 0.178);
+}
+/* footer */
+.footer {
+  background-color: rgba(155, 86, 219, 0.675);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
