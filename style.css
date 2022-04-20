@@ -4,6 +4,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* navbar */
+#navbar {
+  position: fixed;
+  /* width: 100vh; */
+  display: flex;
+  justify-content: space-between;
+  /* scroll-behavior: smooth; */
+  height: 4em;
+  background-color: blueviolet;
+  text-shadow: 2px 2px 2px rgba(44, 240, 240, 0.303);
+  color: blueviolet;
+  font-size: 2rem;
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-evenly;
+  scroll-behavior: smooth;
+  list-style-type: none;
+}
 .lnd {
   height: 100vh;
 }
@@ -84,3 +104,4 @@
   flex-direction: column;
   align-items: center;
 }
+/* media query */
