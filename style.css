@@ -6,12 +6,13 @@
 }
 /* navbar */
 #navbar {
-  position: fixed;
+  /* position: fixed; */
   /* width: 100vh; */
+  z-index: 5;
   display: flex;
   justify-content: space-between;
   /* scroll-behavior: smooth; */
-  height: 4em;
+  height: 3em;
   background-color: blueviolet;
   text-shadow: 2px 2px 2px rgba(44, 240, 240, 0.303);
   color: blueviolet;
@@ -23,9 +24,11 @@
   justify-content: space-evenly;
   scroll-behavior: smooth;
   list-style-type: none;
+  padding: 0.5em;
 }
 .lnd {
   height: 100vh;
+  width: 100vw;
 }
 .tpdout {
   overflow: hidden;
@@ -57,8 +60,13 @@
     border-color: black;
   }
 }
+/* about styles */
 .about {
   height: 100vh;
+}
+#pp {
+  width: 200px;
+  aspect-ratio: 1;
 }
 .srv {
   height: 120vh;
@@ -75,9 +83,12 @@
   display: flex;
   justify-content: center;
 }
-.testimonial > div {
+/* testimnial intersection */
+#testimonial {
   width: 100vw;
+  display: flex;
 }
+
 .blog {
   height: 120vh;
 }

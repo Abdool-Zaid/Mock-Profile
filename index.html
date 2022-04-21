@@ -56,7 +56,7 @@
     <section id="about">
       <!-- generic personal info -->
       <div id="ab1">
-        <img src="./images/pp.jpg" alt="Profile Picture" />
+        <img id="pp" src="./images/pp.jpg" alt="Profile Picture" />
         <p>Name: Abdool Zaid</p>
         <p>Profile: Fullstack Developer</p>
         <p>Email: example@Gmail.com</p>
@@ -217,7 +217,44 @@
     </section>
     <!-- testimonial intersection -->
     <section id="testimonial">
-      <div>
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 2</div>
+          <img src="https://cdn.pixabay.com/photo/2017/12/31/15/56/portrait-3052641__340.jpg" style="width:100%">
+          <div class="text"> <h4>lorem</h4>
+            <p>
+              Amet consectetur adipisicing elit. Aperiam, commodi minima at optio
+              repudiandae animi quod magni cumque, dolor incidunt eligendi in
+              magnam. Cumque ducimus corrupti nulla voluptatibus temporibus
+              recusandae!
+            </p></div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 2</div>
+          <img src="https://cdn.pixabay.com/photo/2016/11/29/20/22/girl-1871104__340.jpg" style="width:100%">
+          <div class="text"><h4>Merol</h4>
+            <p>
+              cum quisquam ut quod nisi enim, amet veritatis vero voluptatibus iusto
+              porro, dolorum, aperiam voluptate voluptates id in excepturi?
+            </p></div>
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+      </div>
+      
+      <!-- <div>
         <img
           src="https://cdn.pixabay.com/photo/2017/12/31/15/56/portrait-3052641__340.jpg"
           alt="Profile Pic"
@@ -232,7 +269,7 @@
       </div>
       <div>
         <img
-          src="https://cdn.pixabay.com/photo/2016/11/29/20/22/girl-1871104__340.jpg"
+          src= "https://cdn.pixabay.com/photo/2016/11/29/20/22/girl-1871104__340.jpg"
           alt="Profile Pic"
         />
         <h4>Merol</h4>
@@ -241,7 +278,7 @@
           porro, dolorum, aperiam voluptate voluptates id in excepturi?
         </p>
       </div>
-    </section>
+    </section> -->
     <!-- blog -->
     <section id="blog">
       <div id="head">
