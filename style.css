@@ -3,33 +3,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background: rgb(158, 63, 198);
-  background: radial-gradient(
-    circle,
-    rgba(158, 63, 198, 1) 0%,
-    rgba(148, 233, 160, 1) 100%
-  ); */
+  scroll-behavior: smooth;
 }
-
+body {
+  background-color: rgb(237, 229, 237);
+}
 /* navbar */
 #navbar {
-  /* position: fixed; */
-  /* width: 100vh; */
+  position: fixed;
+  width: 100%;
   z-index: 5;
   display: flex;
   justify-content: space-between;
-  /* scroll-behavior: smooth; */
   height: 3em;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.227);
   text-shadow: 2px 2px 2px rgb(188, 119, 213);
   color: rgba(43, 98, 226, 0.786);
   font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style-type: none;
 }
 
 .topnav {
   display: flex;
   justify-content: space-evenly;
-  scroll-behavior: smooth;
   list-style-type: none;
   padding: 0.5em;
 }
@@ -39,6 +36,7 @@
 .drp:hover > ul {
   display: block;
   background-color: rgba(240, 255, 255, 0.123);
+  list-style-type: none;
 }
 .dp > ul {
   display: none;
@@ -46,7 +44,9 @@
 .dp:hover > ul {
   display: block;
   background-color: rgba(240, 255, 255, 0.123);
+  list-style-type: none;
 }
+/* title styles */
 #title {
   height: 90vh;
   display: flex;
@@ -57,6 +57,12 @@
   background-image: url("./images/pexels-warren-bradley-3212378.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 2px 2px 2px rgb(188, 119, 213);
+  font-size: 2em;
+}
+#title > h2 {
+  width: 65vw;
 }
 .tpdout {
   overflow: hidden;
@@ -89,11 +95,37 @@
   }
 }
 /* about styles */
-.about {
+#about {
   height: 100vh;
+  display: flex;
+  align-items: center;
+}
+#ab1 {
+  width: 47%;
+  height: 80vh;
+  background-color: white;
+  box-shadow: 4px 4px 4px grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#bas {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+#ab2 {
+  width: 47%;
+  height: 80vh;
+  background-color: white;
+  box-shadow: 4px 4px 4px grey;
 }
 #pp {
-  width: 400px;
+  width: 300px;
   aspect-ratio: 1;
 }
 .srv {
