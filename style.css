@@ -38,7 +38,14 @@
 }
 .drp:hover > ul {
   display: block;
-  background-color: azure;
+  background-color: rgba(240, 255, 255, 0.123);
+}
+.dp > ul {
+  display: none;
+}
+.dp:hover > ul {
+  display: block;
+  background-color: rgba(240, 255, 255, 0.123);
 }
 #title {
   height: 90vh;
@@ -47,7 +54,7 @@
   align-items: center;
   justify-content: center;
   z-index: 10;
-  background-image: url("./images/pexels-jeremy-bishop-2397414.jpg");
+  background-image: url("./images/pexels-warren-bradley-3212378.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
