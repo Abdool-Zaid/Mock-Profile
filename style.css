@@ -141,8 +141,9 @@ body {
   padding-left: 20px;
   align-content: f;
 }
-/* #ab1 > meter {
-} */
+#ab1 > progress {
+  /* background-color: #3d0179; */
+}
 #bas {
   height: 300px;
   display: flex;
@@ -255,7 +256,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 #cinfo {
   height: 90%;
