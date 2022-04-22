@@ -15,17 +15,14 @@
   padding-right: 20px;
   padding-bottom: 30px;
   margin: 20px;
-<<<<<<< HEAD
+
   animation: box 0.4s liner;
 }
 .box:hover {
   transform: translateX(0px) translateY(85px);
 }
-
 .box {
   transition: transform 500ms ease-in-out 25ms;
-=======
->>>>>>> 90c191b2192c5f6a06af149ec3a10a750f5e57ae
 }
 body {
   background-color: #140029;
@@ -137,6 +134,8 @@ body {
   padding-left: 20px;
   align-content: f;
 }
+#ab1 > meter {
+}
 #bas {
   height: 300px;
   display: flex;
@@ -145,35 +144,58 @@ body {
   align-items: flex-end;
   justify-content: space-between;
   align-content: flex-start;
+  font-size: 01.5rem;
 }
 #ab2 {
   width: 47%;
   height: 80vh;
-  border-radius: 68px;
-  background: #140029;
-  box-shadow: 31px 31px 44px #3d0179, -31px -31px 44px #190034;
+  font-size: 01.5rem;
 }
+
 #pp {
   width: 300px;
   aspect-ratio: 1;
 }
-.srv {
+#srv {
   height: 120vh;
 }
-.stat {
-  height: 50vh;
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
-.portfolio {
-  height: 120vh;
-}
-/* .testimonial {
-  height: 50vh;
-  width: 200vw;
+#content {
   display: flex;
   justify-content: center;
-} */
-/* testimnial intersection */
-
+  flex-wrap: wrap;
+  font-size: 1.8rem;
+}
+#content > div {
+  border: 10px solid #3d0179;
+  border-radius: 10%;
+  margin: 10px;
+  width: 28%;
+  /* border-radius: 10%; */
+}
+#stat {
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+#portfolio {
+  height: 120vh;
+}
+#pc {
+  display: flex;
+  flex-wrap: wrap;
+}
+#pc > div {
+  width: 28%;
+}
 #t1 {
   display: flex;
   background-color: blueviolet;
