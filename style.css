@@ -304,5 +304,12 @@ body {
     /* padding-left: 10px; */
     justify-content: space-between;
     /* align-items: flex-end; */
+    height
+  }
+  #pc > div {
+    width: 44%;
+  }
+  #portfolio {
+    height: 150vw;
   }
 }
