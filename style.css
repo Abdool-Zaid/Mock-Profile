@@ -286,4 +286,23 @@ body {
   #navi {
     display: block;
   }
+  #about {
+    display: flex;
+    flex-direction: column;
+    height: 150vw;
+    align-items: flex-start;
+  }
+  #ab1 {
+    padding-right: 5%;
+    width: 95%;
+  }
+  #ab2 {
+    padding-right: 5%;
+    width: 95%;
+  }
+  #pc {
+    /* padding-left: 10px; */
+    justify-content: space-between;
+    /* align-items: flex-end; */
+  }
 }
