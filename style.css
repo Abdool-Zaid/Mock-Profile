@@ -5,8 +5,30 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+/* box template */
+.box {
+  border-radius: 68px;
+  background: #140029;
+  box-shadow: 31px 31px 44px #3d0179, -31px -31px 44px #190034;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  margin: 20px;
+  animation: box 0.4s liner;
+}
+.box:hover {
+  transform: translateX(0px) translateY(85px);
+}
+
+.box {
+  transition: transform 500ms ease-in-out 25ms;
+}
 body {
-  background-color: rgb(237, 229, 237);
+  background-color: #140029;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 3px 2px 23px rgb(249, 240, 255);
+  font-size: 1.7rem;
 }
 /* navbar */
 #navbar {
@@ -16,11 +38,11 @@ body {
   display: flex;
   justify-content: space-between;
   height: 3em;
-  background-color: rgba(0, 0, 0, 0.227);
+  background-color: rgba(15, 0, 20, 0.227);
   text-shadow: 2px 2px 2px rgb(188, 119, 213);
   color: rgba(43, 98, 226, 0.786);
   font-size: 2rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
   list-style-type: none;
 }
 
@@ -103,11 +125,14 @@ body {
 #ab1 {
   width: 47%;
   height: 80vh;
-  background-color: white;
-  box-shadow: 4px 4px 4px grey;
+  /* border-radius: 68px;
+  background: #140029;
+  box-shadow: 31px 31px 44px #3d0179, -31px -31px 44px #190034; */
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  align-content: f;
 }
 #bas {
   height: 300px;
@@ -121,8 +146,9 @@ body {
 #ab2 {
   width: 47%;
   height: 80vh;
-  background-color: white;
-  box-shadow: 4px 4px 4px grey;
+  border-radius: 68px;
+  background: #140029;
+  box-shadow: 31px 31px 44px #3d0179, -31px -31px 44px #190034;
 }
 #pp {
   width: 300px;
@@ -186,9 +212,18 @@ body {
 }
 /* footer */
 .footer {
-  background-color: rgba(155, 86, 219, 0.675);
+  background-color: rgba(15, 0, 20, 0.227);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+@keyframes box {
+  0% {
+    transform: translateZ(0px);
+  }
+  100% {
+    transform: translateZ(3px);
+  }
+}
+
 /* media query */
