@@ -134,8 +134,8 @@ body {
   padding-left: 20px;
   align-content: f;
 }
-#ab1 > meter {
-}
+/* #ab1 > meter {
+} */
 #bas {
   height: 300px;
   display: flex;
@@ -192,13 +192,14 @@ body {
 #pc {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 #pc > div {
   width: 28%;
 }
 #t1 {
   display: flex;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   max-height: 65vh;
   display: flex;
   flex-direction: column;
@@ -215,9 +216,18 @@ body {
 #tt {
   width: 600px;
   text-align: center;
+  font-size: 1.3rem;
 }
-.blog {
+#blog {
   height: 120vh;
+}
+#bc {
+  padding-top: 40px;
+  font-size: 1.3rem;
+  display: flex;
+}
+#card {
+  margin-bottom: 20px;
 }
 /* contact */
 .contact {
