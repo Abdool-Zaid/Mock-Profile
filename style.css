@@ -6,15 +6,17 @@
   scroll-behavior: smooth;
 }
 /* box template */
-
 .box {
   border-radius: 68px;
   background: #140029;
   box-shadow: 31px 31px 44px #3d0179, -31px -31px 44px #190034;
+  padding-top: 20px;
 }
 body {
   background-color: #140029;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 3px 2px 23px rgb(249, 240, 255);
+  font-size: 1.7rem;
 }
 /* navbar */
 #navbar {
@@ -116,7 +118,9 @@ body {
   box-shadow: 31px 31px 44px #3d0179, -31px -31px 44px #190034; */
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  align-content: f;
 }
 #bas {
   height: 300px;
