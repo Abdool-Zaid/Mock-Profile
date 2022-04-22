@@ -62,6 +62,17 @@ body {
 #navi {
   display: none;
 }
+  #snav{
+    display: flex;
+    flex-direction: column;
+    z-index: 7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 8vh;
+    display: none;
+  }
+
 .drp > ul {
   display: none;
 }
@@ -284,6 +295,9 @@ body {
     display: none;
   }
   #navi {
+    display: block;
+  }
+  #snav{
     display: block;
   }
   #about {
