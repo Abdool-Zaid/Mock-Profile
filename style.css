@@ -141,9 +141,7 @@ body {
   padding-left: 20px;
   align-content: f;
 }
-#ab1 > progress {
-  /* background-color: #3d0179; */
-}
+ 
 #bas {
   height: 300px;
   display: flex;
