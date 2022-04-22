@@ -59,6 +59,9 @@ body {
   text-decoration: none;
   border: none;
 }
+#navi {
+  display: none;
+}
 .drp > ul {
   display: none;
 }
@@ -141,7 +144,7 @@ body {
   padding-left: 20px;
   align-content: f;
 }
- 
+
 #bas {
   height: 300px;
   display: flex;
@@ -276,3 +279,11 @@ body {
 }
 
 /* media query */
+@media (max-width: 900px) {
+  #topnav {
+    display: none;
+  }
+  #navi {
+    display: block;
+  }
+}
