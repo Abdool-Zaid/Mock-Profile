@@ -28,7 +28,7 @@ body {
   background-color: #140029;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: 3px 2px 23px rgb(249, 240, 255);
-  font-size: 1.7rem;
+  font-size: 20px;
 }
 /* navbar */
 #navbar {
@@ -41,16 +41,23 @@ body {
   background-color: rgba(15, 0, 20, 0.227);
   text-shadow: 2px 2px 2px rgb(188, 119, 213);
   color: rgba(43, 98, 226, 0.786);
-  font-size: 2rem;
+  font-size: 20px;
   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
   list-style-type: none;
+  padding: 14px 16px;
 }
 
-.topnav {
+#topnav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   list-style-type: none;
-  padding: 0.5em;
+}
+#topnav > li {
+  padding-right: 20px;
+}
+#topnav > li > :link {
+  text-decoration: none;
+  border: none;
 }
 .drp > ul {
   display: none;
@@ -81,7 +88,7 @@ body {
   background-size: 100% 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: 2px 2px 2px rgb(188, 119, 213);
-  font-size: 2em;
+  font-size: 20px;
 }
 #title > h2 {
   width: 65vw;
@@ -149,9 +156,11 @@ body {
 #ab2 {
   width: 47%;
   height: 80vh;
-  font-size: 01.5rem;
+  font-size: 20px;
 }
-
+#ab2 > p {
+  padding-top: 20px;
+}
 #pp {
   width: 300px;
   aspect-ratio: 1;
@@ -170,7 +179,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  font-size: 1.8rem;
+  font-size: 20px;
 }
 #content > div {
   border: 10px solid #3d0179;
@@ -181,6 +190,7 @@ body {
 }
 #stat {
   height: 50vh;
+  width: 96vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -216,24 +226,27 @@ body {
 #tt {
   width: 600px;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 20px;
 }
 #blog {
   height: 120vh;
 }
+#card > p {
+  padding-top: 20px;
+}
 #bc {
   padding-top: 40px;
-  font-size: 1.3rem;
+  font-size: 20px;
   display: flex;
 }
 #card {
   margin-bottom: 20px;
 }
 /* contact */
-.contact {
+#contact {
   display: flex;
+  justify-content: space-between;
   height: 98vh;
-  background-color: rgba(155, 86, 219, 0.675);
 }
 /* contact form */
 #form {
@@ -243,7 +256,10 @@ body {
   flex-direction: column;
   align-items: center;
 
-  background-color: rgba(0, 255, 255, 0.178);
+}
+#cinfo {
+  height: 90%;
+  width: 40%;
 }
 /* footer */
 .footer {
