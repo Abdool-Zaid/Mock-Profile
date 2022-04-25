@@ -62,17 +62,20 @@ body {
 #navi {
   display: none;
 }
-  #snav{
-    display: flex;
-    flex-direction: column;
-    z-index: 7;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    margin-top: 8vh;
-    display: none;
-  }
 
+#snav {
+  display: flex;
+  flex-direction: column;
+  z-index: 7;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-top: 8vh;
+  display: none;
+}
+#navi:hover + #snav {
+  display: block;
+}
 .drp > ul {
   display: none;
 }
@@ -155,7 +158,9 @@ body {
   padding-left: 20px;
   align-content: f;
 }
-
+#pp {
+  filter: drop-shadow(3px -5px 4px #1849018d);
+}
 #bas {
   height: 300px;
   display: flex;
@@ -297,9 +302,7 @@ body {
   #navi {
     display: block;
   }
-  #snav{
-    display: block;
-  }
+
   #about {
     display: flex;
     flex-direction: column;
